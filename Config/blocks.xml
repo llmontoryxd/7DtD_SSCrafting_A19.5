@@ -1,0 +1,23 @@
+<config>
+	<append xpath="/blocks">
+		<block name="StainlessSteelVariantHelper">
+			<property name="Extends" value="stainlessSteelBlock"/>
+			<property name="CustomIcon" value="stainlessSteelBlock"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="stainlessSteelBlock,stainlessSteelRamp,stainlessSteelWedge,stainlessSteelArch,stainlessSteelStairs25,stainlessSteelCNRFull,stainlessSteelCNRInside"/>
+		</block>
+	</append>
+
+	<set xpath="/blocks/block[@name='stainlessSteelBlock']/property[@name='DowngradeBlock']/@value">steelBlock</set>
+	<set xpath="/blocks/block[@name='stainlessSteelRamp']/property[@name='DowngradeBlock']/@value">steelRamp</set>
+	<set xpath="/blocks/block[@name='stainlessSteelWedge']/property[@name='DowngradeBlock']/@value">steelWedge</set>
+	<set xpath="/blocks/block[@name='stainlessSteelArch']/property[@name='DowngradeBlock']/@value">steelArch</set>
+	<set xpath="/blocks/block[@name='stainlessSteelStairs25']/property[@name='DowngradeBlock']/@value">steelStairs25</set>
+	<set xpath="/blocks/block[@name='stainlessSteelCNRFull']/property[@name='DowngradeBlock']/@value">steelCNRFull</set>
+	<set xpath="/blocks/block[@name='stainlessSteelCNRInside']/property[@name='DowngradeBlock']/@value">steelCNRInside</set>
+
+
+</config>
